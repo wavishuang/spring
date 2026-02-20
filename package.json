@@ -1,26 +1,26 @@
 {
-  "name": "my-app",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "cap-build": "npx cap add android && npx cap add ios",
-    "cap-copy": "npx cap copy",
-    "cap-sync": "npm run generate && export LANG=en_US.UTF-8 && npx cap sync"
-  },
-  "dependencies": {
-    "@capacitor/android": "^8.1.0",
-    "@capacitor/cli": "^7.5.0",
-    "@capacitor/core": "^8.1.0",
-    "@capacitor/ios": "^8.1.0",
-    "firebase": "^12.9.0",
-    "lodash": "^4.17.23",
-    "nuxt": "^4.3.1",
-    "vue": "^3.5.28",
-    "vue-router": "^4.6.4"
-  }
+	"name": "cpa",
+	"version": "copy",
+	"bin": {
+		"cbm": "index.js"
+	},
+	"dependencies": {
+		"colors": "^1.1.2"
+	},
+	"main": "index.js",
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Jiang-Xuan/cbm.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Jiang-Xuan/cbm/issues"
+	},
+	"homepage": "https://github.com/Jiang-Xuan/cbm#readme",
+	"description": ""
 }
