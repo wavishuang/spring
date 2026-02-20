@@ -1,6 +1,6 @@
 {
-  "appId": "com.example.app",
-  "appName": "my-app",
+  "appId": "com.spring.myapp",
+  "appName": "Spring",
   "webDir": ".output/public",
   "server": {
     "url": "http://192.168.1.100:3000",
