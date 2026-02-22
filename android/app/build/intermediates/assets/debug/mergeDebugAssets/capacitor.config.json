@@ -1,0 +1,6 @@
+{
+	"appId": "com.spring.myapp",
+	"appName": "my-app",
+	"webDir": ".output/public",
+	"bundledWebRuntime": false
+}
