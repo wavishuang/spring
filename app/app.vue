@@ -7,6 +7,7 @@
           <NuxtLink to="/" class="nav-link">首頁</NuxtLink>
           <NuxtLink to="/about" class="nav-link">關於我</NuxtLink>
           <NuxtLink to="/firebase" class="nav-link">Firebase測試</NuxtLink>
+          <NuxtLink to="/destiny" class="nav-link">天機命理</NuxtLink>
         </div>
       </div>
     </nav>
@@ -15,7 +16,7 @@
     </main>
     <footer class="footer">
       <div class="footer-container">
-        <p>&copy; 2026 我的網站. 使用 Nuxt 3 和 Capacitor 建立</p>
+        <p>&copy; 2026 我的網站. 使用 Nuxt 4 和 Capacitor 建立</p>
       </div>
     </footer>
   </div>

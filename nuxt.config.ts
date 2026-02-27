@@ -2,15 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
+  modules: ['@nuxtjs/tailwindcss'],
+  future: {
+    compatibilityVersion: 4,
+  },
   ssr: false,
-  app: {
-    baseURL: './',
-  },
-  nitro: {
-    prerender: {
-      routes: ['/', '/about', '/test', '/firebase']
-    }
-  },
   runtimeConfig: {
     public: {
       firebaseApiKey: process.env.NUXT_PUBLIC_FIREBASE_API_KEY,
@@ -21,5 +17,16 @@ export default defineNuxtConfig({
       firebaseAppId: process.env.NUXT_PUBLIC_FIREBASE_APP_ID,
       firebaseMeasurementId: process.env.NUXT_PUBLIC_FIREBASE_MEASUREMENT_ID
     }
-  }
+  },
+  app: {
+    baseURL: './',
+  },
+  nitro: {
+    output: {
+      dir: '.output/public',
+    },
+      // prerender: {
+      //   routes: ['/', '/about', '/test', '/firebase']
+      // }
+  },
 })
